@@ -28,6 +28,10 @@ This script failed in `zsh`, so `fish` was used.
 
 This documentation provides a comprehensive guide on using the `undo_dropbox_naming.fish` script and includes an example, explanation, and source code reference. This documentation provides a comprehensive guide on using the `undo_dropbox_naming.fish` script and includes an example, explanation, and source code reference.
 
+### update_exif.fish
+
+The `update_exif.fish` script updates the EXIF metadata for PNG, JPG, and JPEG images. It supports both single-image processing and batch processing for directories. For detailed usage instructions, see [update_exif.fish documentation](docs/fish/update_exif.md).
+
 
 ## License
 

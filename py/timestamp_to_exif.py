@@ -117,7 +117,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--batch",
         action="store_true",
-        default=True,
+        default=False,
         help="Process all PNG files in the folder if set. Process a single file if not set.",
     )
 
