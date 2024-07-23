@@ -40,6 +40,10 @@ To process all images in a directory:
 
 `./update_exif.fish /path/to/images --timezone Europe/Stockholm --batch`
 
+#### Use JSON metadata
+
+`./update_exif.fish /path/to/images --timezone Europe/Stockholm --batch --json`
+
 #### Specifying a Timestamp
 
 ```sh

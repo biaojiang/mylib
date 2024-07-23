@@ -32,6 +32,27 @@ This documentation provides a comprehensive guide on using the `undo_dropbox_nam
 
 The `update_exif.fish` script updates the EXIF metadata for PNG, JPG, and JPEG images. It supports both single-image processing and batch processing for directories. For detailed usage instructions, see [update_exif.fish documentation](docs/fish/update_exif.md).
 
+### Rename Files Script
+
+The `rename_media.fish` script is designed to rename media files (images and videos) in a specified folder or a single file based on their creation date and time metadata. It also allows appending a custom description to the filenames. For detailed documentation on using the `rename_media.fish` script, please refer to the [Rename Files Script Documentation](docs/fish/rename_files.md).
+
+## Installation
+
+Ensure you have the required dependencies installed. For the `rename_files.fish` script, you need `exiftool` and `fd` . 
+
+### Install `exiftool` and `fd` 
+
+- **For macOS**:
+
+```bash
+brew install exiftool fd
+```
+
+**For Linux**:
+
+```sh
+sudo apt-get install exiftool fd-find
+```
 
 ## License
 
